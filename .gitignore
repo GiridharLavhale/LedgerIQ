@@ -1,0 +1,57 @@
+# Secrets and Environment Variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Node & Frontend Build
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vite/
+
+# Database & Runtime Data
+*.db
+*.sqlite
+*.sqlite3
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+
+# Archives & Temporary Artifacts
+*.zip
+*.tar.gz
+*.tmp
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
